@@ -1,0 +1,137 @@
+
+.card {
+  width: 100%;
+  max-width: 720px;
+  border-radius: 1.25rem;
+  border: 1px solid #222;
+  background: radial-gradient(
+    circle at top left,
+    #151515 0,
+    #0f0f10 50%,
+    #050505 100%
+  );
+  padding: 1.75rem 1.75rem 1.5rem;
+}
+
+.eyebrow {
+  font-size: 0.7rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: #9ca3af;
+  margin-bottom: 0.75rem;
+}
+
+.title {
+  font-size: 1.6rem;
+  line-height: 1.2;
+  margin-bottom: 0.75rem;
+}
+
+.meta {
+  margin-top: 1.5rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid #222;
+  display: flex;
+  justify-content: space-between;
+  gap: 0.75rem;
+  font-size: 0.75rem;
+  color: #9ca3af;
+  flex-wrap: wrap;
+}
+
+.badge {
+  padding: 0.1rem 0.55rem;
+  border-radius: 999px;
+  border: 1px solid #222;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+}
+
+/* utility-ish bits reused via classes */
+.grid {
+  display: grid;
+  grid-template-columns: 1.1fr 1fr;
+  gap: 1.5rem;
+}
+
+@media (max-width: 640px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.pill-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin: 1.25rem 0 0.75rem;
+}
+
+.pill {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  padding: 0.25rem 0.6rem;
+  border-radius: 999px;
+  border: 1px solid #222;
+  color: #9ca3af;
+}
+
+.pill strong {
+  color: #e5e5e5;
+  font-weight: 600;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  margin-top: 0.5rem;
+  font-size: 0.8rem;
+}
+
+.links a {
+  color: #e5e5e5;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.links a span {
+  font-size: 0.75rem;
+  color: #9ca3af;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
+
+.back {
+  font-size: 0.8rem;
+  margin-bottom: 1rem;
+}
+
+.back a {
+  color: #9ca3af;
+  text-decoration: none;
+}
+
+.back a:hover {
+  color: #e5e5e5;
+  text-decoration: underline;
+}
+
+p {
+  font-size: 0.9rem;
+  line-height: 1.6;
+  color: #9ca3af;
+}
+
+ul {
+  padding-left: 1rem;
+  margin-top: 0.6rem;
+  font-size: 0.85rem;
+  color: #9ca3af;
+}
